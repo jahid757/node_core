@@ -49,11 +49,12 @@ const fs = require('fs');
 // },1000)
 
 
-const School = require('./school');
-const school = new School();
+// const School = require('./school');
+// const school = new School();
 
-school.on('ready',({event,text}) => {
-    console.log(`ready to go because ${text} ${event}`)
-})
+// school.on('ready',({event,text}) => {
+//     console.log(`ready to go because ${text} ${event}`)
+// })
 
-school.startClass()
+// school.startClass()
+
